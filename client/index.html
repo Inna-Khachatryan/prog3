@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Js Game</title>
+    <meta charset="utf8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="mouseOver" onmouseover="mOver(this)" onmouseout="mOut(this)">Mouse Over Me</div> 
+
+    <div id="buttons">
+        <button id="summer">Summer</button>
+        <button id="spring">Spring</button>
+        <button id="winter">Winter</button>
+        <button id="autumn">Autumn</button>
+    </div>
+
+    <div id="game">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+        <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </div>
+
+
+
+        <script>
+            function mOver(obj) {
+              obj.innerHTML = "Thank's for game"
+            }
+
+            function mOut(obj) {
+              obj.innerHTML = "Mouse Over Me"
+            }
+        </script>
+</body>
+</html>

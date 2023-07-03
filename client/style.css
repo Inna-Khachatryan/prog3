@@ -1,0 +1,28 @@
+#summer{
+    background-color: coral;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#spring{
+    background-color: darkgreen;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#winter{
+    background-color: aqua;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#autumn{
+    background-color: rgb(158, 85, 33);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#mouseOver{
+    font-size: 50px;
+    color: rgb(60,179,113);
+}
